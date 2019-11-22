@@ -1,0 +1,22 @@
+{
+  "name": "reduz",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "李元秋",
+  "main": "dist/index.js",
+  "module": "dist/reduz.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "../../node_modules/.bin/tsdx watch",
+    "build": "../../node_modules/.bin/tsdx build",
+    "test": "../../node_modules/.bin/tsdx test --env=jsdom",
+    "lint": "../../node_modules/.bin/eslint -c ../../.eslintrc.js --ext ts --ext tsx src test"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "devDependencies": {}
+}

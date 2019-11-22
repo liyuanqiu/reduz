@@ -1,0 +1,10 @@
+**/node_modules/
+**/coverage/
+**/dist/
+**/yarn-error.log
+**/.DS_Store
+**/.rts2_cache_cjs
+**/.rts2_cache_esm
+**/.rts2_cache_umd
+**/.rts2_cache_system
+.deprecated
