@@ -2,7 +2,7 @@
 
 > A `react` state management tool based on `useReducer` and `context`
 
-`Reduz` is just a toy, it has not NPM package, DO NOT use it in production.
+`Reduz` is just a toy, it has no NPM package, DO NOT use it in production.
 
 ## Motivation
 
